@@ -7,7 +7,6 @@ import './format.scss';
 import {Router, Route, browserHistory} from "react-router"
 //this.props.router.push('/login')
 
-
 class App extends React.Component {
   render() {
     return (
@@ -15,6 +14,7 @@ class App extends React.Component {
         <Route path={"login"} component={Login} />
         <Route path={"interests"} component={Interests} />
       </Router>
+
     );
 
    
