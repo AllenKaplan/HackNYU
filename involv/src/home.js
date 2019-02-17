@@ -70,7 +70,7 @@ Welcome, Daria
       </div>
         <div className="cardgroup">
         <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="chess.jpg" />
+  <Card.Img variant="top" src="holder.js/171x180" roundedCircle />
   <Card.Body>
     <Card.Title>Chess Club</Card.Title>
     <Card.Text>
