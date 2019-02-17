@@ -15,24 +15,24 @@ import ReactSearchBox from 'react-search-box'
 export default class home extends Component {
   data = [
     {
-      key: 'john',
-      value: 'John Doe',
+      key: 'athletics',
+      value: 'Athletics',
     },
     {
-      key: 'jane',
-      value: 'Jane Doe',
+      key: 'science',
+      value: 'Science',
     },
     {
-      key: 'mary',
-      value: 'Mary Phillips',
+      key: 'technology',
+      value: 'Technology',
     },
     {
-      key: 'robert',
-      value: 'Robert',
+      key: 'engineering',
+      value: 'Engineering',
     },
     {
-      key: 'karius',
-      value: 'Karius',
+      key: 'math',
+      value: 'Math',
     },
   ]
 
@@ -50,10 +50,10 @@ Welcome, Daria
         callback={record => console.log(record)}
       />
       </div>
-
-    )
+    );
   }
 }
+  
   
 
 // app.get('formating.css', function(req, res){ res.send('formating.css'); res.end(); });
