@@ -10,7 +10,6 @@ import homepage from './homepage.js'
 //this.props.router.push('/login')
 
 
-
 class App extends React.Component {
   redirect(){
     return <Redirect to="/login"/>
@@ -25,7 +24,6 @@ class App extends React.Component {
         <Route path={"/"} component={homepage} />
         <Route path={"interests"} component={Interests} />
       </Router>
-
     );
 
     
