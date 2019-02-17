@@ -7,5 +7,33 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 .buttonGroup {
-    padding: 32px;
+    padding: 16px;
 }
+
+/* .d-block w-100{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+} */
+
+.carousel-caption h3 {
+    font-size:      128px;
+    color:          rgb(180, 43, 150) !important;
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    vertical-align: top;
+    }
+    /* Description text */
+    .carousel-caption p {
+    font-size:      48px;
+    color:          rgb(180, 43, 150) !important;
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: .5px;
+    vertical-align: top;
+    }
+    /* Button text */
+    .carousel-caption .btn {
+    font-size:      1em;
+    color:          yellow;
+    }
+    

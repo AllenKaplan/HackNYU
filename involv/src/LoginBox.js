@@ -1,7 +1,6 @@
 import React from 'react';
 //import './formating.scss';
-
-// import reactDOM from 'react-dom';
+import { Link } from 'react-router'
 
 
 class LoginBox extends React.Component {
@@ -11,11 +10,14 @@ class LoginBox extends React.Component {
     this.state = {};
   }
 
-  submitLogin(e) {}
+  submitLogin(e) {
+  //  <Link to='/interests'>Interests</Link>;
+  return(<Link to="/interests"></Link>);
+  }
 
   render() {
     return (
-      <div className="inner-container">
+      <div className="inner-container">   
         <div className="header">
           Login
         </div>
@@ -38,13 +40,13 @@ class LoginBox extends React.Component {
               className="login-input"
               placeholder="Password"/>
           </div>
-
-          <button
+          <Link to="/interests" className="btn btn-primary">Login</Link>
+          {/* <button
             type="button"
             className="login-btn"
             onClick={this
             .submitLogin
-            .bind(this)}>Login</button>
+            }>Login</button> */}
         </div>
       </div>
     );
