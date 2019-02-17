@@ -18,6 +18,7 @@ class RegisterBox extends React.Component {
 
 }
 
+
   render() {
     return (
       <div className="inner-container">

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import Login from './Login.js'
+import Interests from './Interests.js'
 import LoginBox from './LoginBox.js';
 import RegisterBox from './RegisterBox.js';
 import reactDOM from 'react-dom';
@@ -15,7 +16,10 @@ class App extends React.Component {
     return (
       <Router history={browserHistory}> 
         <Route path={"login"} component={Login} />
+
         <Route path={"home"} component={home} />
+
+        <Route path={"interests"} component={Interests} />
       </Router>
     );
 
