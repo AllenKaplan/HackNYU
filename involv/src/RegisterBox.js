@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 //import './format.scss';
 
 // import reactDOM from 'react-dom';
@@ -11,7 +12,9 @@ class RegisterBox extends React.Component {
     this.state = {};
   }
 
-  submitRegister(e) {}
+  submitRegister(e) {
+      alert('registered ' + );
+  }
 
   render() {
     return (
@@ -22,21 +25,21 @@ class RegisterBox extends React.Component {
         <div className="box">
 
           <div className="input-group">
-            <label htmlFor="username">First Name</label>
+            <label htmlFor="firstname">First Name</label>
             <input
               type="text"
-              name="username"
+              name="firstname"
               className="login-input"
-              placeholder="Username"/>
+              placeholder="First Name"/>
           </div>
 
           <div className="input-group">
-            <label htmlFor="username">Last Name</label>
+            <label htmlFor="lastname">Last Name</label>
             <input
               type="text"
-              name="username"
+              name="lastname"
               className="login-input"
-              placeholder="Username"/>
+              placeholder="Last Name"/>
           </div>
 
           <div className="input-group">
@@ -57,7 +60,10 @@ class RegisterBox extends React.Component {
             className="login-btn"
             onClick={this
             .submitRegister
-            .bind(this)}>Register</button>
+            .bind(this)}>Register
+                     
+          </button>
+        
         </div>
       </div>
     );
