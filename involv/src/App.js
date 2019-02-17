@@ -5,6 +5,7 @@ import LoginBox from './LoginBox.js';
 import RegisterBox from './RegisterBox.js';
 import reactDOM from 'react-dom';
 import './format.scss';
+import home from './home.js'
 import {Router, Route, browserHistory} from "react-router"
 //this.props.router.push('/login')
 
@@ -14,6 +15,7 @@ class App extends React.Component {
     return (
       <Router history={browserHistory}> 
         <Route path={"login"} component={Login} />
+        <Route path={"home"} component={home} />
       </Router>
     );
 

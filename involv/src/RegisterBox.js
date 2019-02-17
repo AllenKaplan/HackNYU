@@ -13,8 +13,10 @@ class RegisterBox extends React.Component {
   }
 
   submitRegister(e) {
-      alert('registered ' + );
-  }
+    alert('Thank you for registering Daria!\n\n Please proceed to the Login Page' );
+    window.location.reload();
+
+}
 
   render() {
     return (
@@ -60,7 +62,8 @@ class RegisterBox extends React.Component {
             className="login-btn"
             onClick={this
             .submitRegister
-            .bind(this)}>Register
+            .bind(this)
+            }>Register
                      
           </button>
         
