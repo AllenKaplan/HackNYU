@@ -15,7 +15,29 @@ $blue_theme: #042a70;
     align-items: center;
     flex-direction: column;
 }
+.header1{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 17px;
+    margin-left: 35px; 
+    margin-right: 35px; 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+// .homePage{
+//     background-color: #042a70;
 
+// }
+
+
+
+.dropdown{
+    float: right;
+    width: 150px;
+    //border: 3px solid #73AD21;
+    padding: 0px;
+}
 .box-controller {
     visibility: visible;
     display: -webkit-box;
@@ -66,11 +88,22 @@ $blue_theme: #042a70;
     text-align: center;
     padding: 5px;
     margin-bottom: 17px;
-    /* margin-left: 35px; */
-    /* margin-right: 35px; */
-    font-family: Ozxgen, sans-serif;
+    margin-left: 35px; 
+    margin-right: 35px; 
+    font-family: Tahoma, Geneva, sans-serif;
     font-size: 22px;
     border-bottom: 2px solid $blue_theme;
+}
+
+.header2 {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 17px;
+    margin-left: 35px; 
+    margin-right: 35px; 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+   // border-bottom: 2px solid $blue_theme;
 }
 
 .box {
