@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import logo from './logo.svg';
 import Login from './Login.js'
 import Interests from './Interests.js'
-import LoginBox from './LoginBox.js';
-import RegisterBox from './RegisterBox.js';
 import reactDOM from 'react-dom';
 import './format.scss';
 import {Router, Route, browserHistory} from "react-router"

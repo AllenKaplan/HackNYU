@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import reactDOM from 'react-dom';
 import InterestBoxes from './InterestBoxes.js';
 import './format.scss';
-import {Router, Route} from "react-router-dom"
+import { Link } from 'react-router'
 
 import './sheet2.css'
 //this.props.router.push('/login')
@@ -16,6 +16,9 @@ class Interests extends React.Component {
       <h1>Select Your Interests!</h1>
       
       <InterestBoxes/>
+
+      <h1>Ready?</h1>
+      <Link to="/home" className="btn btn-primary">Find Your Match</Link>
       </div>
     );
 

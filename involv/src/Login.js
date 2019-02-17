@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import logo from './logo.svg';
 import LoginBox from './LoginBox.js';
 import RegisterBox from './RegisterBox.js';
 import reactDOM from 'react-dom';
 import './format.scss';
-import {Router, Route} from "react-router-dom"
 //this.props.router.push('/login')
 
 
