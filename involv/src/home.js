@@ -11,6 +11,8 @@ import ReactSearchBox from 'react-search-box'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
+import Dropdown from 'react-bootstrap/Dropdown'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
 //import ToggleButton from 'react-bootstrap/ca'
 
@@ -57,6 +59,20 @@ export default class home extends Component {
         <div className="header">
 Welcome, Daria  
 </div>  
+<div>
+<Dropdown as={ButtonGroup}>
+  <Button variant="success">Split Button</Button>
+
+  <Dropdown.Toggle split variant="success" id="dropdown-split-basic" />
+
+  <Dropdown.Menu>
+    <Dropdown.Item hred="#/action-1">Action</Dropdown.Item>
+    <Dropdown.Item hred="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item hred="#/action-3">Something else</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>;
+</div>
+
       <div className="header">
       Search for Opportunities
       <ReactSearchBox
