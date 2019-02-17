@@ -17,7 +17,7 @@
     "react-search-box": "^2.0.1"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1"
+    "@types/react-dom": "^16.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,8 +36,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "@types/react-dom": "^16.8.2"
-  }
+  ]
 }
