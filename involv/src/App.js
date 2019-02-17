@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import LoginBox from './LoginBox.js';
 import RegisterBox from './RegisterBox.js';
 import reactDOM from 'react-dom';
-import './formating.css';
+import './format.scss';
 
 
 class App extends React.Component {
@@ -28,10 +28,8 @@ class App extends React.Component {
     return (
       
       <div className="App">
-        <div className="root-container">
-   
-        
-     
+       <div className="root-container"> 
+  
         <div className="box-container">
         
         {/* { <LoginBox/>}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './format.scss';
+//import './format.scss';
 
 // import reactDOM from 'react-dom';
 
@@ -22,7 +22,16 @@ class RegisterBox extends React.Component {
         <div className="box">
 
           <div className="input-group">
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username">First Name</label>
+            <input
+              type="text"
+              name="username"
+              className="login-input"
+              placeholder="Username"/>
+          </div>
+
+          <div className="input-group">
+            <label htmlFor="username">Last Name</label>
             <input
               type="text"
               name="username"

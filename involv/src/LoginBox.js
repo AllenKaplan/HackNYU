@@ -1,4 +1,6 @@
 import React from 'react';
+//import './formating.scss';
+
 // import reactDOM from 'react-dom';
 
 
