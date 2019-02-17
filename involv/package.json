@@ -2,6 +2,7 @@
   "name": "involv",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "node-sass": "^4.11.0",
@@ -15,11 +16,17 @@
     "react-scripts": "2.1.5",
     "react-search-box": "^2.0.1"
   },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build --history-api-fallback",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "eslintConfig": {
     "extends": "react-app"
