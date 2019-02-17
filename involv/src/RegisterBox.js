@@ -13,7 +13,7 @@ class RegisterBox extends React.Component {
   }
 
   submitRegister(e) {
-      alert('registered ' + );
+      alert('registered ');
   }
 
   render() {
